@@ -4,15 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
 import NavbarComponent from './components/Navbar';
 import Homepage from './components/Homepage';
-import Profile from './components/Profile';
+import ProfileMain from './components/ProfileMain';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <NavbarComponent/>
       <Homepage/>
-      <Profile/>
-      <h1>I am the contact card app</h1>
+      <ProfileMain/>
+      <Footer/>
     </div>
   );
 }

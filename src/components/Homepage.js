@@ -8,10 +8,6 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 
-
-
-
-import heroImage from "../images/preview.png"
 import heroImage2 from "../images/89191cover2.jpg"
 
 
@@ -42,10 +38,6 @@ const Homepage = ()=> {
                 <Image src={heroImage2} className="image-fluid" width={360}/>
                 </Col>
             </Row>
-            <h1>I am homepage </h1>
-            <h1>more of me</h1>
-            <h1>more</h1>
-            <h3>more..</h3>
 
         </Container>
     )
